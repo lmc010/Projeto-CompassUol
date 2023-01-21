@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap%22%22");
+.container {
+    width: 100%;
+    height: 100vh;
+    margin-left: 0px;
+    flex-direction: row;
+    display:flex;
+}
+
+.titles {
+    background: linear-gradient(180deg, #33383d 0%, #1c1d20 100%);
+    width: 50%;
+    height: 100%;
+}
+
+.center {
+    width: 100%;
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title {
+    font-family:"Mulish" ;
+    font-weight: 400;
+    color: #e0e0e0;
+    font-size: 60px;
+    font-weight: normal;
+    font-style: normal;
+    padding-top: 19%;
+    padding-right: 9%;
+}
+
+.subtitle {
+    font-family:"Mulish" ;
+    width: 300px;
+    font-size: 16px;
+    margin-left: -30px;
+    line-height: 20px;
+    color: #E0E0E0;
+}
+
+.container-image{
+    margin:0%;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.backgrounduol{
+    background-image: url('../../../src/img/image.png');
+    width: 100%;
+    height: 100%;
+    background-size:cover;
+}
+
+.logocompass {
+    width:484px;
+    height:66px;
+    background-repeat: no-repeat;
+    margin-top: 3%;
+    position: absolute;
+}

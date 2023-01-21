@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap%22%22");
+
+.textbox{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    height: 100%;
+    width: 100%;
+    gap: 15px;
+}
+
+.login{
+    font-family:"Mulish";
+    color: #E0E0E0;
+    font-size: 30px;
+    font-weight: 100;
+    margin-top:-200px;
+    margin-left: -315px;
+    
+}
+
+.username{
+    width :379px ;
+  height:60px;
+  border-color: white;
+  border-radius: 50px;
+  background-color: #26292C;
+  font-size: 14px;
+  color:#E0E0E0;
+  padding-left: 5%;
+}
+
+.lock {
+    background-image: url("../../../public/icons/icon-user.png");
+    width:30px;
+    height:22px;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.space{
+    display:flex;
+    align-items: baseline;
+    align-content: center;
+    justify-content: center;
+    flex-direction: row;
+    
+
+}
+
+.people {
+    width:30px;
+    height:22px;
+    color: white;
+}
+
+.password {
+    width :379px ;
+  height:60px;
+  border-color: white;
+  border-radius: 50px;
+  background-color: #26292C;
+  font-size: 14px;
+  color:#E0E0E0;
+  padding-left: 5%;
+  
+}
+

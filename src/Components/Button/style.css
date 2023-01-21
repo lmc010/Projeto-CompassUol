@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap%22%22");
+
+.redbutton {
+    height: 60px;
+    width: 379px ;
+    margin-top:620px;
+    margin-left: -1565px;
+    border-radius: 50px;
+    background-color:#FF2D04;
+    font-size: 21px;
+    color:#E0E0E0;
+    font-family:"Mulish"
+}
