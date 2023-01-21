@@ -9,5 +9,28 @@
     background-color:#FF2D04;
     font-size: 21px;
     color:#E0E0E0;
-    font-family:"Mulish"
+    font-family:"Mulish";
+    cursor:pointer;
+}
+
+.redbutton:hover {
+    background-color: #be1812;
+}
+
+
+.redbuttonz{
+    height: 67px;
+    width: 471px ;
+    margin-top:760px;
+    margin-left: -1535px;
+    border-radius: 50px;
+    background-color:#da3110;
+    font-size: 21px;
+    color:#E0E0E0;
+    font-family:"Mulish";
+    cursor:pointer;
+}
+
+.redbuttonz:hover {
+    background-color: #be1812;
 }

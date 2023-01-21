@@ -1,7 +1,64 @@
-.containercad {
+.container-cad {
     width: 100%;
     height: 100vh;
     margin-left: 0px;
     flex-direction: row;
     display:flex;
+}
+
+.titles-cad {
+    background: linear-gradient(180deg, #33383d 0%, #1c1d20 100%);
+    width: 50%;
+    height: 100%;
+}
+
+.center-cad {
+    width: 100%;
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title-cad {
+    font-family:"Mulish" ;
+    font-weight: 273px;
+    color: #e0e0e0;
+    font-size: 60px;
+    font-weight: normal;
+    font-style: normal;
+    padding-top: 6%;
+    padding-right: 9%;
+}
+
+.subtitle-cad {
+    font-family:"Mulish" ;
+    width: 300px;
+    font-size: 16px;
+    margin-left: -40px;
+    line-height: 20px;
+    color: #E0E0E0;
+}
+
+.container-image{
+    margin:0%;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.backgrounduol{
+    background-image: url('../../../src/img/image.png');
+    width: 100%;
+    height: 100%;
+    background-size:cover;
+}
+
+.logocompass {
+    width:484px;
+    height:66px;
+    background-repeat: no-repeat;
+    margin-top: 3%;
+    position: absolute;
 }
