@@ -100,7 +100,7 @@
   background-color: #26292C;
   font-size: 14px;
   color:#E0E0E0;
-  margin-top: 25px;
+  margin-top: -2px;
   margin-left: 205px;
   padding-left: 3%;
 }
@@ -113,7 +113,7 @@
   background-color: #26292C;
   font-size: 14px;
   color:#E0E0E0;
-  margin-top: -15px;
+  margin-top: -45px;
   margin-left: 205px;
   padding-left: 3%;
 }
@@ -126,7 +126,7 @@
   background-color: #26292C;
   font-size: 14px;
   color:#E0E0E0;
-  margin-top: -55px;
+  margin-top: -88px;
   margin-left: 205px;
   padding-left: 3%;
 }
@@ -139,7 +139,7 @@
   background-color: #26292C;
   font-size: 14px;
   color:#E0E0E0;
-  margin-top: -95px;
+  margin-top: -135px;
   margin-left: 205px;
   padding-left: 3%;
 }
@@ -152,7 +152,7 @@
   background-color: #26292C;
   font-size: 14px;
   color:#E0E0E0;
-  margin-top: -135px;
+  margin-top: -182px;
   margin-left: 205px;
   padding-left: 3%;
 }
@@ -165,7 +165,7 @@
     background-color: #26292C;
     font-size: 14px;
     color:#E0E0E0;
-    margin-top: -175px;
+    margin-top: -230px;
     margin-left: 205px;
     padding-left: 3%;
 }
@@ -178,7 +178,7 @@
   background-color: #26292C;
   font-size: 14px;
   color:#E0E0E0;
-  margin-top: -215px;
+  margin-top: -275px;
   margin-left: 205px;
   padding-left: 3%;
 }
@@ -191,7 +191,7 @@
   background-color: #26292C;
   font-size: 14px;
   color:#E0E0E0;
-  margin-top: -255px;
+  margin-top: -190px;
   margin-left: 205px;
   padding-left: 3%;
 }
@@ -213,4 +213,19 @@
   margin-left:-260px;
   font-family:"Mulish";
   color: #e0e0e0;
+}
+
+.buttonregister{
+    height: 67px;
+    width: 471px ;
+    border-radius: 50px;
+    border-radius: 50px;
+    background-color:#da3110;
+    font-size: 21px;
+    font-size: 21px;
+    color:#E0E0E0;
+    font-family:"Mulish";
+    cursor:pointer;  
+    margin-top:50px;
+    margin-left: 115px; 
 }

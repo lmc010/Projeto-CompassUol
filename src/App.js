@@ -1,19 +1,21 @@
 import React from 'react'
 import Login from './pages/Login/'
-import { BrowserRouter, Link, Routes, Route } from 'react-router-dom'
+import { BrowserRouter, Link, Routes, Route, Navigate } from 'react-router-dom'
 import Cadastro from './pages/Cadastro'
+import Dashboard from './pages/Dashboard'
+import { MdDashboard } from 'react-icons/md'
+
 
 const App = () => {
   return (
     <>
-    <BrowserRouter>
     <Routes>
-      <Route path="/" exact  element={<Cadastro/>}/>
+      <Route path='/home'element={<Cadastro/>}/>
+      <Route path='/login'element={<Login/>}/>
+      <Route path='/dashboard'element={<Dashboard/>}/>
+      <Route path='/'element={<Navigate to="/home"/>}/>
     </Routes>
-    <Routes>
-      <Route path="/Login" exact element={<Login/>}/>
-    </Routes>
-    </BrowserRouter>
+    
     </>
 
 

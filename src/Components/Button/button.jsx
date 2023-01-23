@@ -1,11 +1,9 @@
 import './style.css'
 
-function Button(){
+function Button(props){
     return(
-    <a className='buttonz'>
-        <button className='redbutton'>Log In</button>
-    </a>
-
+        <button className='redbutton' onClick={props.onClick}>Log In</button>
+    
     )
 
 

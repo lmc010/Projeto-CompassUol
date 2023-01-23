@@ -4,6 +4,7 @@ import Input from "../../Components/Inputs/Input";
 import compass from "../../../src/img/logoUol.png";
 import Button from "../../Components/Button/button";
 import Cadastrar from "../../Components/Account/account";
+import { useNavgate, Link } from "react-router-dom";
 
 const Login = () => {
   return (
