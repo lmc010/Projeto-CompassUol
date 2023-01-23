@@ -41,13 +41,38 @@ const Dashboard =() => {
             </div>
 
             <div>
-                <button>Monday</button>
-                <button>Tuesday</button>
-                <button>Wednesday</button>
-                <button>Thursday</button>
-                <button>Friday</button>
-                <button>Monday</button>
-                <button>Monday</button>
+                <button className="monday">Monday</button>
+                <button className="tuesday">Tuesday</button>
+                <button className="wednesday">Wednesday</button>
+                <button className="thursday">Thursday</button>
+                <button className="friday">Friday</button>
+                <button className="saturday">Saturday</button>
+                <button className="sunday">Sunday</button>
+                <div>
+                    <button className="timedash">Time</button>
+                </div>
+                <div>
+                    <button className="timedash1">10h30m</button>
+                </div>
+                <div>
+                <button className="timedash2">11h30m</button>
+                </div>
+                <div>
+                <button className="timedash3">13h10m</button>
+                </div>
+                <div>
+                  <button className="timedash4">15h00m</button>
+                </div>
+                <div>
+                <button className="timedash5">16h55m</button>
+                </div>
+                <div>
+                <button className="timedash6">17h25m</button>
+                </div>
+                <div>
+                <button className="timedash7">22h15m</button>
+                </div>
+
             </div>
 
             
