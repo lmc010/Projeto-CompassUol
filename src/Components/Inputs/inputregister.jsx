@@ -37,7 +37,7 @@ function Usernamespace() {
             <p className='Firstnamep'>Last name</p>
         </div>
         <div className='spacecad'>
-            <input className='data' placeholder='MMDDYY' type="text" value={data} onChange={(e)=>setData(e.target.value)}></input>
+            <input className='data' placeholder='MM/DD/YY' type="text" value={data} onChange={(e)=>setData(e.target.value)}></input>
             <p className='Firstnamep'>Birth Date</p>
         </div>
         <div className='spacecad'>

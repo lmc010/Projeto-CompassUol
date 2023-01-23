@@ -41,7 +41,7 @@ function Input(){
             <input className='password' placeholder='password' type="text" ref={passwordRef}></input>
             <MdOutlineLock className='people'/>
         </div>
-        <button onClick={submit} >login</button>
+        <button className='loginsubmit' onClick={submit} >Login</button>
     </div>
   )
 }

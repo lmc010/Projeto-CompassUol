@@ -23,7 +23,6 @@ const Login = () => {
         <div className="backgrounduol"></div>
       </div>
       <Cadastrar/>
-      <Button/>
     </main>
   );
 };

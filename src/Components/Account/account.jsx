@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 function Cadastrar(){
     return(
     <a className='cadastro'>
-        <Link to="/home" ><p className='criar'>Criar Conta</p> </Link>
+        <p className='criar'>Don't have an account?</p> <Link to="/home" ><p className='criar2'> Sign up.</p> </Link>
     </a>
 
     )

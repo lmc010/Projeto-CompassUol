@@ -1,0 +1,120 @@
+
+
+.weekly{
+    font-family:"Mulish";
+    font-size: 22px;
+    line-height: 20px;
+    color:#FFFFFF;
+    margin-left:-350px;
+    weight: 700px;
+    line-height:20px;
+}
+
+.parametro{
+    font-family:"Mulish" ;
+    color:#FFFFFF;
+    margin-left:-210px;
+    margin-top:5px
+}
+
+.headeruol{
+    background-color: rgb(255, 255, 255);
+    width: 1800px;
+    Height:130px
+}
+
+
+.retangulo{
+    background-color: black;
+    width: 588px;
+    Height:64px;
+    margin-top:-65px;
+    border-radius: 0px 14px 15px 0px
+}
+
+.taskissue{
+    Width:391px;
+    Height:45px;
+    border: 1px solid #FECE00;
+    border-radius: 10px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.7);
+    margin-left: 25px;
+    margin-top: 50px;
+    padding-left: 1%;
+}
+
+.select{
+    Width:240px;
+    Height:45px;
+    border: 1px solid #FECE00;
+    border-radius: 10px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.7);  
+    margin-left: 5px;
+    padding-left: 1%;
+}
+
+.time{
+    Width:120px;
+    Height:45px;
+    border: 1px solid #FECE00;
+    border-radius: 10px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.7);
+    margin-left: 5px;
+    padding-left: 1%;
+}
+
+.logouolblack{
+    margin-left: 1580px;
+    margin-top: 15px;
+}
+
+.imageuoldash{
+    margin-left: 1100px;
+    margin-top:50px;
+    width: 780px;
+    height:780px
+}
+
+.addcalendar{
+    background-color:#00BA88;
+    Width:200px;
+    Height:44px;
+    border-radius: 10px;
+    gap: 4px;
+    font-family:"Mulish" ;
+    color:#FFFFFF;
+    font-size: 20px;
+    border: none;
+    margin-left: 550px;
+
+}
+
+.deleteall{
+    background-color: #FF3D1F;
+    Width:200px;
+    Height:44px;
+    border-radius: 10px;
+    font-family:"Mulish" ;
+    color:#FFFFFF;
+    font-size: 20px;
+    border: none;
+    margin-left: 20px;
+}
+
+.buttonlog{
+    width:25px;
+    height: 5px;
+}
+
+
+
+
+
+
+
+
+
+
