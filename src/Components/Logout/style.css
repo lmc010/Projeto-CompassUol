@@ -1,8 +1,12 @@
 .logouthome{
-    margin-top:50px;
-    margin-left: -100px;
+    margin-top:-2500px;
+    margin-left: -500px;
     font-family:"Mulish";
     color:black;
     text-decoration: none;  
     font-size: 17px;
+}
+
+a:visited{
+    color:black;
 }

@@ -1,5 +1,5 @@
 import './style.css'
-import React,{useRef, useState} from 'react'
+import React,{useState} from 'react'
 import { useNavigate } from 'react-router-dom'
 
 function Usernamespace() {
@@ -13,7 +13,7 @@ function Usernamespace() {
         const [password,setPassword]=useState("")
         const [confirm,setConfirm]=useState("")
 
-        const armazenar=()=>{
+        /* const armazenar=()=>{
             localStorage.setItem("firstname",firstname)
             localStorage.setItem("lastname",lastname)
             localStorage.setItem("data",data)
@@ -22,7 +22,42 @@ function Usernamespace() {
             localStorage.setItem("email",email)
             localStorage.setItem("password",password)
             localStorage.setItem("confirm",confirm)
-        }
+        } */
+           
+
+        const formArm={
+                firstName: firstname,
+                lastName : lastname,
+                birthDate: data,
+                city: country,
+                country: city,
+                email: email,
+                password: password,
+                confirmPassword: confirm,
+            }
+
+            const armazenar=()=>{
+
+            fetch("https://latam-challenge-2.deta.dev/api/v1/users/sign-up",
+            {
+                method:"POST",
+                body:JSON.stringify(formArm),
+                headers:{"Content-type":"application/json;charset=UTF-8"},
+            })
+            .then((res)=>{
+                console.log(res)
+                return res.json()
+            })
+
+
+            .then((data)=>{
+                console.log(data)
+            })
+
+
+
+
+         }
 
 
 
@@ -53,11 +88,11 @@ function Usernamespace() {
             <p className='Firstnamep'>E-mail</p>
         </div>
         <div className='spacecad'>
-            <input className='yourpassowrd' placeholder='Your Password' type="text" value={password} onChange={(e)=>setPassword(e.target.value)}></input>
+            <input className='yourpassowrd' placeholder='Your Password' type="password" value={password} onChange={(e)=>setPassword(e.target.value)}></input>
             <p className='Firstnamep'>Password</p>
         </div>
         <div className='spacecad'>
-            <input className='confirmpassword' placeholder='Confirm your passowrd' type="text"  value={confirm}  onChange={(e)=>setConfirm(e.target.value)}></input>
+            <input className='confirmpassword' placeholder='Confirm your passowrd' type="password"  value={confirm}  onChange={(e)=>setConfirm(e.target.value)}></input>
             <p className='Firstnamep'>Password</p>
 
          <button className='buttonregister' onClick={armazenar}
